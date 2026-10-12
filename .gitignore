@@ -1,0 +1,26 @@
+
+# Credentials and secrets
+.env
+*.env
+.env.*
+*.pem
+*.key
+credentials
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+*.tfvars
+*.tfvars.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Local files
+*.bak
+.DS_Store
